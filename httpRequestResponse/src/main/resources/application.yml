@@ -1,0 +1,7 @@
+micronaut:
+  application:
+    name: httpRequestResponse
+netty:
+  default:
+    allocator:
+      max-order: 3
