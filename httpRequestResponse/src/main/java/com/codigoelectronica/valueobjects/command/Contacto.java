@@ -3,14 +3,14 @@ package com.codigoelectronica.valueobjects.command;
 import io.micronaut.core.annotation.Introspected;
 
 @Introspected
-public class Contactos {
+public class Contacto {
 
     private String nombre;
     private String apellido;
     private String email;
     private String telefono;
 
-    public Contactos() {
+    public Contacto() {
     }
 
     public String getNombre() {
